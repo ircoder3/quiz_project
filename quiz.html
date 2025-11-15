@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="quiz.css">
+    <script src="quiz.js"></script>
+    <title>Enter details for quiz</title>
+</head>
+
+<body>
+    <div class = "container">
+        <h2>ENTER&emsp;DETAILS</h2> 
+        <br> 
+    <h3> Enter your details: (and click submit to start) </h3>
+    <form action="quiz_display.php" method="POST">
+
+                <label> Name: </label>
+                
+               <input type="text" name="username" required>
+                <br>
+                <br>
+                <label> Year Of Study:</label>
+
+                <select name="year">
+                    <option> select</option>
+                    <option> 1st year</option>
+                    <option> 2nd year</option>
+                    <option> 3rd year</option>
+                    <option> 4th year</option>
+                </select>
+                <br>
+                <br>
+                <label>Branch:</label>
+                <input type="text" name="branch">
+                <br>
+                <br>
+                <button type="submit"> start quiz</button>
+            </form>
+           
+    </div>
+</body>
+</html>
+
+

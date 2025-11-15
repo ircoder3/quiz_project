@@ -13,3 +13,4 @@ if(!$connection)
 }
 
 ?>
+//so i made 2 tables in the database quizz table 1 is quiz_table which has 7 columns and quiz_result with 4 colums which displays score and details entered
